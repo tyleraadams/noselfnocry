@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `No Self, No Cry`,
+    author: `Tyler Adams`,
+    description: `Exploring Buddhist teachings`,
+    siteUrl: `https://www.noselfnocry.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `tyleraadams`,
     },
   },
   plugins: [
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-54737851-2`,
       },
     },
     `gatsby-plugin-feed`,
